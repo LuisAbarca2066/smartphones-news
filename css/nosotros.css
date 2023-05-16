@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background: #4bcab5;
+  padding: 0 10px;
+  display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(250px,)
+    );
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(250px,)
+    );
+}
+
+/*inicio de cabezera*/
+.cabecera_logo{
+    display: flex;
+   }
+   .logo{
+       height: 100px;
+   }
+   /*inicio de navegacion*/
+.navegacion{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 0 40px;
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /*overflow: hidden;*/
+}
+
+.navegacion a{
+   text-decoration: none; 
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+   margin: 25px 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   /*padding 25px 50 px*/
+
+}
+/*quienes somos*/
+.titulo1{
+margin-top: 40px;
+}
+
+.letras{
+ margin-top: 10px;
+ text-align: justify;
+}
+
+.contactos{
+  margin-top: 50px;
+}
+.maps{
+    width: 400px;
+    height: 200px;
+}
