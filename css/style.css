@@ -14,7 +14,7 @@
     width: 100%;
 }
 
-.division_de_contenedor {  /**/
+.division_de_contenido {  /**/
     width: 100%;
     display: flex;
     background: rgb(255, 21, 21);
@@ -55,7 +55,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    /*overflow: hidden;*/
+   
 }
 
 .menu a{
@@ -65,10 +65,9 @@
    font-weight: 600;
    margin: 25px 50px;
    font-family: Arial, Helvetica, sans-serif;
-   /*padding 25px 50 px*/
+   
 
 }
-
 
 .menu a:hover{
     color: rgb(0, 0, 0);
@@ -180,7 +179,7 @@
     display: flex;
    
 }
-.ul{
+.lista_desordenada{
     background: #292929;
     width: 50%;
     
@@ -224,73 +223,73 @@
 
  
 
-.table {
+.tabla {
     width: 100%;
     border: 1px solid #ccc;
     border-collapse: collapse;
     margin: 0;
     padding: 0;
-    table-layout: fixed;
 }
 
-.table caption {
+
+.tabla td {
     font-size: 28px;
     text-transform: uppercase;
     font-weight: bold;
     margin: 8px 0px;
 }
 
-.table tr {
+.tabla tr {
     background-color: #f8f8f8;
     border: 1px solid #ddd;
 }
 
-.table th, .table td {
+.tabla th, .tabla td {
     font-size: 16px;
     padding: 8px;
     text-align: center;
 }
 
-.table thead th{ 
+.tabla thead th{ 
     text-transform: uppercase;
     background-color: #ddd;
 }
 
-.table tbody tr:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+.tabla tbody tr:hover {
+    background-color: rgba(205, 182, 182, 0.2);
 }
 
-.table tbody td:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+.tabla tbody td:hover {
+    background-color: rgba(107, 216, 213, 0.3);
 }
 
 @media screen and (max-width: 600px) {
-    .table {
+    .tabla {
         border: 0px;
     }
-    .table caption {
+    .tabla td {
         font-size: 22px;
     }
-    .table thead {
+    .tabla thead {
         display: none;
     }
-    .table tr {
+    .tabla tr {
         margin-bottom: 8px;
         border-bottom: 4px solid #ddd;
         display: block;
     }
-    .table th, .table td {
+    .tabla th, .tabla td {
         font-size: 12px;
     }
-    .table td {
+    .tabla td {
         display: block;
         border-bottom: 1px solid #ddd;
         text-align: right;
     }
-    .table  td:last-child {
+    .tabla  td:last-child {
         border-bottom: 0px;
     }
-    .table td::before {
+    .tabla td::before {
         content: attr(data-label);
         font-weight: bold;
         text-transform: uppercase;
@@ -330,5 +329,6 @@
  text-align: right;
 
  }  
+
 
 
